@@ -1,0 +1,36 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(174, 206, 156);
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+img {
+  width: 90%;
+}
+
+.bloc {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 150px;
+  padding: 15px;
+  color: white;
+  background-color: grey;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: rgb(174, 206, 156);
+}
